@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ДЗ3", "ДЗ3\ДЗ3.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ДЗ4", "ДЗ4\ДЗ4.vcxproj", "{6BB59CF6-16AD-4AE6-9EC2-55675B1C85FE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ДЗфункції", "ДЗфункції\ДЗфункції.vcxproj", "{137FEE12-5906-482E-A262-15D69A3653ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{6BB59CF6-16AD-4AE6-9EC2-55675B1C85FE}.Release|x64.Build.0 = Release|x64
 		{6BB59CF6-16AD-4AE6-9EC2-55675B1C85FE}.Release|x86.ActiveCfg = Release|Win32
 		{6BB59CF6-16AD-4AE6-9EC2-55675B1C85FE}.Release|x86.Build.0 = Release|Win32
+		{137FEE12-5906-482E-A262-15D69A3653ED}.Debug|x64.ActiveCfg = Debug|x64
+		{137FEE12-5906-482E-A262-15D69A3653ED}.Debug|x64.Build.0 = Debug|x64
+		{137FEE12-5906-482E-A262-15D69A3653ED}.Debug|x86.ActiveCfg = Debug|Win32
+		{137FEE12-5906-482E-A262-15D69A3653ED}.Debug|x86.Build.0 = Debug|Win32
+		{137FEE12-5906-482E-A262-15D69A3653ED}.Release|x64.ActiveCfg = Release|x64
+		{137FEE12-5906-482E-A262-15D69A3653ED}.Release|x64.Build.0 = Release|x64
+		{137FEE12-5906-482E-A262-15D69A3653ED}.Release|x86.ActiveCfg = Release|Win32
+		{137FEE12-5906-482E-A262-15D69A3653ED}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
