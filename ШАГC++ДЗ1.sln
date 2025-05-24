@@ -35,6 +35,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ДЗ_структури", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ДЗ_структури_машина", "ДЗ_структури_машина\ДЗ_структури_машина.vcxproj", "{155E7FC9-D1CB-420F-983F-15D74CA078C9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ДЗ_бібліотека_файли", "ДЗ_бібліотека_файли\ДЗ_бібліотека_файли.vcxproj", "{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -171,6 +173,14 @@ Global
 		{155E7FC9-D1CB-420F-983F-15D74CA078C9}.Release|x64.Build.0 = Release|x64
 		{155E7FC9-D1CB-420F-983F-15D74CA078C9}.Release|x86.ActiveCfg = Release|Win32
 		{155E7FC9-D1CB-420F-983F-15D74CA078C9}.Release|x86.Build.0 = Release|Win32
+		{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}.Debug|x64.ActiveCfg = Debug|x64
+		{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}.Debug|x64.Build.0 = Debug|x64
+		{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}.Debug|x86.Build.0 = Debug|Win32
+		{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}.Release|x64.ActiveCfg = Release|x64
+		{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}.Release|x64.Build.0 = Release|x64
+		{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}.Release|x86.ActiveCfg = Release|Win32
+		{D654DEAA-01AC-478D-81B8-1A4DEAC0AC8F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
