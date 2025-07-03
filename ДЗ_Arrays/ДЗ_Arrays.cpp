@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <algorithm>
 #include <ctime>
+#include <sstream>
 using namespace std;
 
 class Array {
@@ -139,6 +140,22 @@ public:
     }
 
     int GetSize() const { return size; }
+
+    operator int() const {
+        long sum = 0;
+        for (int i = 0; i < size; i++)
+            sum += arr[i];
+        return static_cast<int>(sum);
+    }
+
+    operator string() const {
+        stringstream ss;
+        for (int i = 0; i < size; i++) {
+            ss << arr[i];
+            if (i != size - 1) ss << " ";
+        }
+        return ss.str();
+    }
 };
 
 
@@ -174,6 +191,11 @@ int main() {
     cout << "Мінімум: " << a1.Min() << endl;
     cout << "Максимум: " << a1.Max() << endl;
     cout << "Середнє: " << a1.Average() << endl;
+
+    cout << "\nПеретворення до int (сума елементів): " << int(a1) << endl;
+
+    string strArr = string(a1);
+    cout << "Перетворення до string: " << strArr << endl;
 
     return 0;
 }

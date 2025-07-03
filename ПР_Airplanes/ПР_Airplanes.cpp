@@ -44,6 +44,29 @@ public:
 
     friend bool operator ==(const Airplane& first, const Airplane& second);
     friend bool operator >(const Airplane& first, const Airplane& second);
+
+    operator string() const {
+        return model;
+    }
+
+    friend ostream& operator<<(ostream& out, const Airplane& a) {
+        out << "Модель: " << a.model << "\nТип: " << a.type
+            << "\nПасажири: " << a.passengers
+            << "\nМакс. пасажири: " << a.maxpassengers << "\n";
+        return out;
+    }
+
+    friend istream& operator>>(istream& in, Airplane& a) {
+        cout << "Введіть модель: ";
+        getline(in >> ws, a.model);
+        cout << "Введіть тип: ";
+        getline(in, a.type);
+        cout << "Введіть кількість пасажирів: ";
+        in >> a.passengers;
+        cout << "Введіть макс. кількість пасажирів: ";
+        in >> a.maxpassengers;
+        return in;
+    }
 };
 
 bool operator ==(const Airplane& first, const Airplane& second) {
@@ -90,6 +113,19 @@ int main()
     cout << "Порівняння a2 > a3:\n";
     if (a2 > a3) cout << "Airbus A320 вміщає більше пасажирів, ніж C-130.\n";
     else cout << "C-130 вміщає більше або стільки ж пасажирів, як Airbus A320.\n";
+
+
+    cout << "\nТест перетворення до string:\n";
+    string modelStr = string(a1);
+    cout << "Модель літака: " << modelStr << endl;
+
+    cout << "\nТест ostream << :\n";
+    cout << a1;
+
+    cout << "\nТест istream >> :\n";
+    cin >> a2;
+    cout << "\nВведений літак:\n";
+    cout << a2;
 
     return 0;
 }
