@@ -53,6 +53,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ПР_Airplanes", "ПР_Airp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ПР_Point", "ПР_Point\ПР_Point.vcxproj", "{606DF38B-9053-4322-B389-F482EDA8C2BF}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ПР_Initializer,TemplateClass", "ПР_Initializer,TemplateClass\ПР_Initializer,TemplateClass.vcxproj", "{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -261,6 +263,14 @@ Global
 		{606DF38B-9053-4322-B389-F482EDA8C2BF}.Release|x64.Build.0 = Release|x64
 		{606DF38B-9053-4322-B389-F482EDA8C2BF}.Release|x86.ActiveCfg = Release|Win32
 		{606DF38B-9053-4322-B389-F482EDA8C2BF}.Release|x86.Build.0 = Release|Win32
+		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Debug|x64.ActiveCfg = Debug|x64
+		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Debug|x64.Build.0 = Debug|x64
+		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Debug|x86.ActiveCfg = Debug|Win32
+		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Debug|x86.Build.0 = Debug|Win32
+		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Release|x64.ActiveCfg = Release|x64
+		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Release|x64.Build.0 = Release|x64
+		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Release|x86.ActiveCfg = Release|Win32
+		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
