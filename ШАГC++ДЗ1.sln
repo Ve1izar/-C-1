@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ПР_Point", "ПР_Point\П
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ПР_Initializer,TemplateClass", "ПР_Initializer,TemplateClass\ПР_Initializer,TemplateClass.vcxproj", "{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ПР_Stack", "ПР_Stack\ПР_Stack.vcxproj", "{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -271,6 +273,14 @@ Global
 		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Release|x64.Build.0 = Release|x64
 		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Release|x86.ActiveCfg = Release|Win32
 		{0A072D4D-E5E1-405B-B1C4-AB5E474ABA98}.Release|x86.Build.0 = Release|Win32
+		{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}.Debug|x64.ActiveCfg = Debug|x64
+		{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}.Debug|x64.Build.0 = Debug|x64
+		{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}.Debug|x86.ActiveCfg = Debug|Win32
+		{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}.Debug|x86.Build.0 = Debug|Win32
+		{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}.Release|x64.ActiveCfg = Release|x64
+		{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}.Release|x64.Build.0 = Release|x64
+		{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}.Release|x86.ActiveCfg = Release|Win32
+		{DA27B6C1-B761-4F82-B2C1-AD6562D85B4D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
