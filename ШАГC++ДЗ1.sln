@@ -63,6 +63,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ДЗ_DoubleLinkedList", "Д
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ДЗ_Queue", "ДЗ_Queue\ДЗ_Queue.vcxproj", "{CEA03B1E-0342-4FCF-9A93-BF4CC2E8B1FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ПР_StudentAspirant", "ПР_StudentAspirant\ПР_StudentAspirant.vcxproj", "{C5438476-D3C8-4880-8129-915EB7FB79BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ПР_Passport_ForeignPassport", "ПР_Passport_ForeignPassport\ПР_Passport_ForeignPassport.vcxproj", "{84038064-429A-4D33-8F82-EFC0A6B4E989}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -311,6 +315,22 @@ Global
 		{CEA03B1E-0342-4FCF-9A93-BF4CC2E8B1FD}.Release|x64.Build.0 = Release|x64
 		{CEA03B1E-0342-4FCF-9A93-BF4CC2E8B1FD}.Release|x86.ActiveCfg = Release|Win32
 		{CEA03B1E-0342-4FCF-9A93-BF4CC2E8B1FD}.Release|x86.Build.0 = Release|Win32
+		{C5438476-D3C8-4880-8129-915EB7FB79BF}.Debug|x64.ActiveCfg = Debug|x64
+		{C5438476-D3C8-4880-8129-915EB7FB79BF}.Debug|x64.Build.0 = Debug|x64
+		{C5438476-D3C8-4880-8129-915EB7FB79BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5438476-D3C8-4880-8129-915EB7FB79BF}.Debug|x86.Build.0 = Debug|Win32
+		{C5438476-D3C8-4880-8129-915EB7FB79BF}.Release|x64.ActiveCfg = Release|x64
+		{C5438476-D3C8-4880-8129-915EB7FB79BF}.Release|x64.Build.0 = Release|x64
+		{C5438476-D3C8-4880-8129-915EB7FB79BF}.Release|x86.ActiveCfg = Release|Win32
+		{C5438476-D3C8-4880-8129-915EB7FB79BF}.Release|x86.Build.0 = Release|Win32
+		{84038064-429A-4D33-8F82-EFC0A6B4E989}.Debug|x64.ActiveCfg = Debug|x64
+		{84038064-429A-4D33-8F82-EFC0A6B4E989}.Debug|x64.Build.0 = Debug|x64
+		{84038064-429A-4D33-8F82-EFC0A6B4E989}.Debug|x86.ActiveCfg = Debug|Win32
+		{84038064-429A-4D33-8F82-EFC0A6B4E989}.Debug|x86.Build.0 = Debug|Win32
+		{84038064-429A-4D33-8F82-EFC0A6B4E989}.Release|x64.ActiveCfg = Release|x64
+		{84038064-429A-4D33-8F82-EFC0A6B4E989}.Release|x64.Build.0 = Release|x64
+		{84038064-429A-4D33-8F82-EFC0A6B4E989}.Release|x86.ActiveCfg = Release|Win32
+		{84038064-429A-4D33-8F82-EFC0A6B4E989}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
