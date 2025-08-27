@@ -30,7 +30,7 @@ public:
 };
 
 class Rectangle : public Shape {
-private:
+protected:
     double width;
     double height;
 public:
@@ -45,7 +45,7 @@ public:
 };
 
 class Triangle : public Shape {
-private:
+protected:
     double base;
     double height;
 public:
@@ -59,17 +59,12 @@ public:
     }
 };
 
-class Square : public Shape {
-private:
-    double side;
+class Square : public Rectangle {
 public:
-    Square(string c, double s) : Shape("Квадрат", c), side(s) {}
-    double GetArea() const override {
-        return side * side;
-    }
+    Square(string c, double s) : Rectangle(c, s, s) {}
     void Show() const override {
         Shape::Show();
-        cout << "Сторона: " << side << ", Площа: " << GetArea() << endl;
+        cout << "Сторона: " << width << ", Площа: " << GetArea() << endl;
     }
 };
 
@@ -90,19 +85,17 @@ public:
     }
 };
 
-class RightTriangle : public Shape {
-private:
-    double a, b;
+class RightTriangle : public Triangle {
 public:
-    RightTriangle(string c, double x, double y)
-        : Shape("Прямокутний трикутник", c), a(x), b(y) {
+    RightTriangle(string c, double a, double b)
+        : Triangle(c, a, b) {
     }
     double GetArea() const override {
-        return 0.5 * a * b;
+        return 0.5 * base * height;
     }
     void Show() const override {
         Shape::Show();
-        cout << "Катет a: " << a << ", Катет b: " << b
+        cout << "Катет a: " << base << ", Катет b: " << height
             << ", Площа: " << GetArea() << endl;
     }
 };
