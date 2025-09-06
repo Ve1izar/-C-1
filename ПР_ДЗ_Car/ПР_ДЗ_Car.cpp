@@ -95,6 +95,10 @@ public:
 		}
 	}
 
+	void SetDriver(Driver* dr) {
+		driver = dr;
+	}
+
 	void Show() const {
 		cout << "Автомобіль:" << endl;
 		for (const auto& wheel : wheels) {
@@ -116,7 +120,10 @@ public:
 	}
 
 	~Car() {
-		delete driver;
+		
+		if (driver != nullptr) {
+			delete driver;
+		}
 	}
 };
 
@@ -133,6 +140,19 @@ int main()
 		new Driver("Петро", "Петров", 40, 15)
 	);
 	myCar.Show();
+
+	Car myCar2(
+		Wheel(16.0, "Steel"),
+		Engine(150.0, "Diesel"),
+		Door("передні"),
+		Body("Синій", "Позашляховик"),
+		Headlight("Xenon")
+	);
+	myCar2.Show();
+
+	Driver* d = new Driver("Петро", "Петров", 40, 15);
+	myCar2.SetDriver(d);
+	myCar2.Show();
 
 	return 0;
 }
